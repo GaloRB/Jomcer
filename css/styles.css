@@ -22,7 +22,8 @@ a {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5 {
     margin: 0;
 }
 
@@ -140,7 +141,7 @@ body {
 
 .button-contact a {
     color: white;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 
@@ -212,7 +213,7 @@ body {
 }
 
 .serv {
-    font-size: 3rem;
+    font-size: 2rem;
     margin: 4rem;
     background-color: white;
 }
@@ -221,11 +222,11 @@ body {
     margin-top: 3rem;
 }
 
-.serv h3 {
+.serv h2 {
     margin-bottom: 2rem;
 }
 
-.serv h3::after {
+.serv h2::after {
     content: '';
     display: block;
     width: 8rem;
@@ -263,4 +264,104 @@ body {
 .button-serv a {
     color: white;
     font-size: 2rem;
+}
+
+
+/* ----------- imagen contacto -----------*/
+
+.imagen-contacto {
+    background-image: url(../img/maquina1.jpg);
+    height: 40rem;
+    background-position: center center;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-attachment: fixed;
+    background-color: #353535dc;
+    display: flex;
+    align-items: center;
+}
+
+.contenido-contacto {
+    flex: 0 0 95%;
+    color: white;
+}
+
+.contenido-contacto h3 {
+    font-size: 2.5rem;
+    margin-left: 2rem;
+}
+
+.contenido-contacto h3::after {
+    content: '';
+    display: block;
+    width: 8rem;
+    height: .5rem;
+    background-color: rgb(236, 118, 71);
+    margin-top: 1rem;
+}
+
+.imagen-contacto-text {
+    background-color: rgba(236, 118, 71, 0.541);
+    margin: 3rem;
+    font-size: 1.8rem;
+    padding: 1.5rem;
+    border-radius: 10%;
+}
+
+.imagen-contacto-text p {
+    margin: 0;
+}
+
+.btn-img {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+
+/* ------ años -----*/
+
+.años {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.años i {
+    text-align: center;
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+.años h4 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+/* -------- footer ------- */
+
+.footer {
+    background-color: rgb(68, 67, 68);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer h5 {
+    font-size: 1.8rem;
+}
+
+.footer p {
+    font-size: 1.8rem;
+}
+
+.footer i {
+    padding: 0 1rem;
+}
+
+.footer span {
+    font-size: 1.5rem;
+    margin: 1rem 5rem;
+    text-align: center;
 }
