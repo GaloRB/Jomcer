@@ -9,10 +9,11 @@
     }
     .nav-mobile {
         display: block;
-        position: absolute;
         width: 100%;
         transition: 0.2s ease;
         transform: translateY(-200%);
+        position: fixed;
+        top: 7rem;
     }
     .active {
         transform: translateY(0);
@@ -104,10 +105,11 @@
     }
     .nav-mobile {
         display: block;
-        position: absolute;
         width: 100%;
         transition: 0.2s ease;
         transform: translateY(-200%);
+        position: fixed;
+        top: 7rem;
     }
     .active {
         transform: translateY(0);
@@ -179,10 +181,11 @@
     }
     .nav-mobile {
         display: block;
-        position: absolute;
         width: 100%;
         transition: 0.2s ease;
         transform: translateY(-200%);
+        position: fixed;
+        top: 7rem;
     }
     .active {
         transform: translateY(0);
