@@ -88,7 +88,7 @@ body {
     color: white;
 }
 
-li {
+.nav-menu li {
     margin: 2rem;
     font-size: 2.5rem;
 }
@@ -114,6 +114,7 @@ li {
     background-image: url(../img/banner2.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     background-blend-mode: soft-light;
     background-color: #353535b9;
     height: 90vh;
@@ -128,5 +129,108 @@ li {
     color: white;
     font-size: 3rem;
     margin-top: 3rem;
-    padding-bottom: 15rem;
+    padding-bottom: 10rem;
+}
+
+.button-contact button {
+    border: none;
+    background-color: rgba(236, 118, 71, 0.61);
+    padding: 1rem;
+}
+
+.button-contact a {
+    color: white;
+    font-size: 2.5rem;
+}
+
+
+/* --------------- ¿quienes somos? --------------------*/
+
+.quienes {
+    background-color: white;
+}
+
+.title-quienes {
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.title-quienes i {
+    margin-bottom: 2rem;
+    font-size: 4rem;
+}
+
+.text-quienes p {
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 1.8rem;
+    margin: 0 2rem;
+}
+
+.button-about {
+    text-align: center;
+    padding: 2rem;
+}
+
+.button-about button {
+    border: none;
+    background-color: rgb(236, 118, 71);
+    padding: 1rem;
+}
+
+.button-about a {
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+/* --------------- servicios --------------------*/
+
+.servicios {
+    background-image: url(../img/maquina.jpeg);
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: soft-light;
+    background-color: #35353531;
+}
+
+.servicios-container {
+    background-color: rgba(255, 255, 255, 0.938);
+    margin: 0 3rem;
+}
+
+.title-servicios {
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.title-servicios i {
+    margin-bottom: 2rem;
+    font-size: 4rem;
+}
+
+.text-servicios p {
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 1.8rem;
+    margin: 0 2rem;
+}
+
+.nuestros-servicios {
+    text-align: center;
+}
+
+.serv {
+    font-size: 2rem;
+    margin: 3rem 0;
+}
+
+.serv:last-child {
+    margin: 0;
+}
+
+.serv span {
+    font-size: 1.5rem;
 }

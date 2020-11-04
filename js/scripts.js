@@ -21,6 +21,7 @@ menuBurger.addEventListener('click', () => {
     line2.classList.toggle('changeline-2');
     line3.classList.toggle('changeline-3');
     navMobile.classList.toggle('active');
+    subMenuMobile.classList.remove("children-mobile-visible");
 });
 
 servicesMobile.addEventListener('click', function() {
