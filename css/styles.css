@@ -32,6 +32,73 @@ body {
 }
 
 
+/** --------------------------animaciones----------------------*/
+
+.animacion-arriba {
+    opacity: 0;
+    transition: all 0.7s;
+}
+
+.animacion-arriba-servicios {
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.animacion-abajo {
+    opacity: 0;
+    transition: all 0.7s;
+}
+
+.animacion-abajo-servicios {
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.animacion-derecha {
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.mostrar-arriba {
+    animation: mostrar-arriba 1s;
+}
+
+@keyframes mostrar-arriba {
+    0% {
+        transform: translateY(7rem);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.mostrar-abajo {
+    animation: mostrar-abajo 1s;
+}
+
+@keyframes mostrar-abajo {
+    0% {
+        transform: translateY(-7rem);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.mostrar-derecha {
+    animation: mostrar-derecha 0.5s;
+}
+
+@keyframes mostrar-derecha {
+    0% {
+        transform: translateX(9rem);
+    }
+    100% {
+        transform: translateX(0rem);
+    }
+}
+
+
 /* ------------------ header -------------------*/
 
 .children {
