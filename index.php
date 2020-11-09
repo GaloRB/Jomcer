@@ -8,53 +8,13 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/e954e6d43f.js" crossorigin="anonymous"></script>
     <title>Jomcer</title>
 </head>
 
-<body>
-    <header class="header">
-        <nav class="nav">
-            <div class="menu-mobile-container">
-                <div id="menu-burger" class="burger-menu">
-                    <div id="line-1" class="line-1"></div>
-                    <div id="line-2" class="line-2"></div>
-                    <div id="line-3" class="line-3"></div>
-                </div>
-            </div>
+<?php include 'includes/nav.php' ?>
 
-            <ul class="nav-menu">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="#">Nosotros</a></li>
-                <li id="services"><a href="#">Servicios</a>
-                    <ul class="children">
-                        <li><a href="#">Construcción</a></li>
-                        <li><a href="#">Venta y renta de maquinaria pesada</a></li>
-                        <li><a href="#">Suministro de agua potable</a></li>
-                        <li><a href="#">Suministro de materiales pétreos</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
-            <div class="logo">
-                <h1>logo</h1>
-            </div>
-        </nav>
-        <nav id="nav-mobile" class="nav-mobile">
-            <ul id="hidden">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="#">Nosotros</a></li>
-                <li id="services-mobile"><a href="#">Servicios</a>
-                    <ul class="children-mobile">
-                        <li><a href="#">Construcción</a></li>
-                        <li><a href="#">Venta y renta de maquinaria pesada</a></li>
-                        <li><a href="#">Suministro de agua potable</a></li>
-                        <li><a href="#">Suministro de materiales pétreos</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
-        </nav>
         <div class="img-banner">
             <div class="title-banner">
                 <h1>Construcción, Obra Civíl y Maquinaria Pesada</h1>
@@ -63,7 +23,7 @@
                 <span>Contamos con gran experiencia en obras del sector público y privado</span>
             </div>
             <div class="button-contact">
-                <button><a href="#">Contactanos</a></button>
+                <button><a href="#">Contáctanos</a></button>
             </div>
         </div>
     </header>
@@ -74,7 +34,7 @@
             <h2>¿Quiénes Somos?</h2>
         </div>
         <div class="text-quienes animacion-derecha">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, officiis? Ullam, animi architecto esse dicta dolores nam eligendi error expedita molestias,</p>
+            <p>JOMCER Constructora S.A De C.V es una empresa contructora socialmente responsable. Promovemos que nuestros empleados sean ejemplo de su comportamiento con los valores que nos cobijan: Calidad, trabajo en equipo, compromiso y responsabilidad.</p>
             <div class="button-about">
                 <button><a href="#">Conócenos</a></button>
             </div>
@@ -88,7 +48,7 @@
                 <h2>Nuestros Servicios</h2>
             </div>
             <div class="text-servicios animacion-derecha">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, officiis? Ullam, animi architecto esse dicta dolores nam eligendi error expedita molestias,</p>
+                <p>Contamos con únidades propias para llevar a cabo los acarreos de suelos, contrucciónes, moviminetos de tierra y agua, ademas vebta y renta de maquinaria pesada, logrando ofrecer a nuestros clientes un buen servicio a un precio bajo.</p>
             </div>
             <div class="nuestros-servicios">
                 <div class="serv">
@@ -97,7 +57,9 @@
                     </div>
                     <i class="fas fa-hard-hat"></i>
                     <h2>Construcción</h2>
-                    <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis voluptatum quo officia? Alias temporibus culpa quod autem harum? </span>
+                    <div class="text-card">
+                        <span>Ofrecemos servico de construcción, terracerías, platafromas y proyección de infraestructura urbana, carretera e hidráulica.</span>
+                    </div>
                     <div class="button-serv">
                         <button><a href="#">Conocer más</a></button>
                     </div>
@@ -107,19 +69,23 @@
                         <img src="img/maquina.jpeg" alt="">
                     </div>
                     <i class="fas fa-tractor"></i>
-                    <h2>Venta y renta de maquinaria</h2>
-                    <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis voluptatum quo officia? Alias temporibus culpa quod autem harum? </span>
+                    <h2>Venta y renta de maquinaria pesada</h2>
+                    <div class="text-card">
+                        <span>Tenemos el equipo necesario para tu obra ya sea que gustes rentar la maquinaria pesada o comprarla.</span>
+                    </div>
                     <div class="button-serv">
                         <button><a href="#">Conocer más</a></button>
                     </div>
                 </div>
                 <div class="serv">
                     <div class="img-container">
-                        <img src="img/agua.jpg" alt="">
+                        <img src="img/pipa.jpeg" alt="">
                     </div>
                     <i class="fas fa-hand-holding-water"></i>
                     <h2>Suministro de agua potable</h2>
-                    <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis voluptatum quo officia? Alias temporibus culpa quod autem harum? </span>
+                    <div class="text-card">
+                        <span>Contámos con servicio de pipas de agua de difrentes capacidades, ya sea que desees de 10,000 litros, 20,000 litros y 32,000 litros.</span>
+                    </div>
                     <div class="button-serv">
                         <button><a href="#">Conocer más</a></button>
                     </div>
@@ -130,7 +96,9 @@
                     </div>
                     <i class="fas fa-tools"></i>
                     <h2>Suministro de material pétreo</h2>
-                    <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis voluptatum quo officia? Alias temporibus culpa quod autem harum? </span>
+                    <div class="text-card">
+                        <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis voluptatum quo officia? Alias temporibus culpa quod autem harum? </span>
+                    </div>
                     <div class="button-serv">
                         <button><a href="#">Conocer más</a></button>
                     </div>
@@ -156,22 +124,9 @@
 
     <section class="años">
         <i class="fas fa-handshake"></i>
-        <h4> 10 Años de expreiencia nos respaldan, siempre dando el mejor servicio y obteniendo la satisfacción de todos nuestros clientes</h4>
+        <h4>Más de 10 años de expreiencia nos respaldan, siempre dando el mejor servicio y obteniendo la satisfacción de todos nuestros clientes</h4>
     </section>
 
-    <footer class="footer">
-        <h5>Jomcer Contructora S. De C.V</h5>
-        <p>Contacto :</p>
-        <span><i class="fas fa-phone-alt"></i>Tel: 1234567898</span>
-        <span><i class="fas fa-at"></i>Correo: jomcer@gmail.com</span>
-        <p>Dirección :</p>
-        <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis saepe eligendi natus </span>
-        <p class="copyright">Todos los derechos reservados 2020 &copy;</p>
-    </footer>
-
-
-</body>
-
-<script src="js/scripts.js"></script>
+ <?php include 'includes/footer.php' ?>
 
 </html>
