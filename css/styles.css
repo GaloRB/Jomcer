@@ -11,6 +11,11 @@ html {
     box-sizing: inherit;
 }
 
+:root {
+    --orange-color: rgb(236, 118, 71);
+    --text-color: rgb(97, 96, 96);
+}
+
 ul {
     list-style: none;
 }
@@ -29,6 +34,34 @@ h5 {
 
 body {
     font-family: 'Lato', sans-serif;
+}
+
+
+/* ------------------ boton whatsapp -------------------------*/
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.float:hover {
+    text-decoration: none;
+    color: #25d366;
+    background-color: #fff;
+}
+
+.my-float {
+    margin-top: 16px;
 }
 
 
@@ -57,6 +90,11 @@ body {
 .animacion-derecha {
     opacity: 0;
     transition: all 0.5s;
+}
+
+.animacion-izquierda {
+    opacity: 0;
+    transition: all 0.7s;
 }
 
 .mostrar-arriba {
@@ -92,6 +130,19 @@ body {
 @keyframes mostrar-derecha {
     0% {
         transform: translateX(9rem);
+    }
+    100% {
+        transform: translateX(0rem);
+    }
+}
+
+.mostrar-izquierda {
+    animation: mostrar-izquierda 1s;
+}
+
+@keyframes mostrar-izquierda {
+    0% {
+        transform: translateX(-9rem);
     }
     100% {
         transform: translateX(0rem);
@@ -188,6 +239,10 @@ body {
 
 .logo h1 {
     margin: 0;
+}
+
+.logo a {
+    color: white;
 }
 
 
@@ -519,4 +574,156 @@ body {
     margin: 2rem 7rem;
     padding-bottom: 1rem;
     border-bottom: 1px solid rgb(236, 118, 71);
+}
+
+.about-container__text {
+    color: var(--text-color);
+    margin: 0;
+    padding: 0 3rem 2rem 3rem;
+    font-size: 2rem;
+}
+
+.about-container__text span {
+    color: black;
+    font-weight: 700;
+}
+
+.about-container__img {
+    margin: auto 3rem 3rem 3rem;
+}
+
+.valores {
+    margin: auto 3rem;
+}
+
+.mision__title {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+}
+
+.mision__title h3::after {
+    content: '';
+    display: block;
+    width: 5rem;
+    height: .5rem;
+    background-color: rgb(236, 118, 71);
+    margin-top: 1rem;
+}
+
+.mision__title p {
+    color: var(--text-color);
+}
+
+
+/* ----------------------- contact page -------------------*/
+
+.img-banner-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/contact.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: soft-light;
+    background-attachment: fixed;
+    background-color: #353535b9;
+    height: 100vh;
+}
+
+.title-banner-contact {
+    font-size: 2.5rem;
+    color: white;
+}
+
+.slogan-contact {
+    color: white;
+    font-size: 3rem;
+    margin-top: 3rem;
+    padding-bottom: 10rem;
+    text-align: center;
+}
+
+.contact-container {
+    text-align: center;
+}
+
+.contact-container__text {
+    color: var(--orange-color);
+}
+
+.contact-container__text h2 {
+    font-size: 4rem;
+    font-weight: 800;
+    margin: 2rem;
+}
+
+.contact-container__text p {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.contact-container p {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.contact-container span {
+    font-size: 2rem;
+    color: var(--text-color);
+}
+
+.datos i {
+    font-size: 3rem;
+    display: block;
+}
+
+.datos span {
+    display: block;
+    margin: 2rem;
+}
+
+.form {
+    margin: 3rem;
+}
+
+label {
+    color: var(--orange-color);
+    font-size: 2rem;
+    display: block;
+}
+
+.form input[type="text"],
+input[type="tel"],
+input[type="email"] {
+    display: block;
+    margin: 1rem auto;
+    width: 100%;
+    background: transparent;
+    border-radius: 1rem;
+    border: 1px solid rgb(75, 75, 75);
+    outline: none;
+    height: 3rem;
+    font-size: 13px;
+}
+
+.form input[type="submit"] {
+    margin: 2rem auto;
+    padding: 1rem;
+    color: white;
+    font-size: 2rem;
+    background-color: var(--orange-color);
+    border: none;
+    width: 80%;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+}
+
+.form textarea {
+    outline: none;
+    width: 100%;
 }

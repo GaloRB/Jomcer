@@ -20,10 +20,10 @@
                         <li><a href="#">Suministro de materiales pétreos</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="contacto">Contacto</a></li>
             </ul>
             <div class="logo">
-                <p>JOMCER</p><img src="img/logo.webp" alt="">
+               <a href="index"><p>JOMCER</p><img src="img/logo.webp" alt=""></a>
             </div>
         </nav>
         <nav id="nav-mobile" class="nav-mobile">
@@ -38,6 +38,6 @@
                         <li><a href="#">Suministro de materiales pétreos</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="contacto">Contacto</a></li>
             </ul>
         </nav>

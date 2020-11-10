@@ -297,6 +297,99 @@
         font-size: 3rem;
         padding-bottom: 8rem;
     }
+    .about-container i {
+        margin-top: 4rem;
+        font-size: 6rem;
+    }
+    .about-container h2 {
+        text-align: center;
+        font-size: 3.5rem;
+        margin: 2rem 7rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid rgb(236, 118, 71);
+    }
+    .about-container__text {
+        color: var(--text-color);
+        margin: 0;
+        padding: 0 3rem 2rem 3rem;
+        font-size: 3rem;
+    }
+    .about-container__text span {
+        color: black;
+        font-weight: 700;
+    }
+    .about-container__img {
+        margin: auto 5rem 5rem 5rem;
+    }
+    .valores {
+        margin: auto 4rem;
+    }
+    .mision__title {
+        display: flex;
+        flex-direction: column;
+        font-size: 3rem;
+    }
+    .mision__title p {
+        color: var(--text-color);
+    }
+    /* -- contact -----*/
+    .title-banner-contact {
+        font-size: 3rem;
+    }
+    .slogan-contact {
+        font-size: 4rem;
+        margin-top: 3rem;
+        padding-bottom: 10rem;
+    }
+    .button-contact a {
+        font-size: 4rem;
+        padding: 4rem;
+    }
+    .contact-container__text h2 {
+        font-size: 5rem;
+    }
+    .contact-container__text p {
+        font-size: 6rem;
+        font-weight: 800;
+    }
+    .contact-container p {
+        font-size: 3.5rem;
+        font-weight: 800;
+    }
+    .contact-container span {
+        font-size: 3rem;
+    }
+    .form {
+        margin: 5rem;
+    }
+    label {
+        font-size: 3rem;
+    }
+    .form input[type="text"],
+    input[type="tel"],
+    input[type="email"] {
+        height: 5rem;
+        font-size: 3rem;
+    }
+    .form input[type="submit"] {
+        margin: 3rem auto;
+        font-size: 3rem;
+    }
+    .form textarea {
+        font-size: 3rem;
+    }
+    .footer h5 {
+        font-size: 3rem;
+    }
+    .footer p {
+        font-size: 3rem;
+    }
+    .footer i {
+        padding: 0 1rem;
+    }
+    .footer span {
+        font-size: 3rem;
+    }
 }
 
 
@@ -448,6 +541,68 @@
         font-size: 3rem;
         padding-bottom: 8rem;
     }
+    .about-container {
+        display: flex;
+    }
+    .about-container__img img {
+        padding-bottom: 7rem;
+    }
+    .about-container__text {
+        font-size: 2.5rem;
+    }
+    .mision {
+        display: flex;
+    }
+    .mision__title {
+        margin: 2rem;
+        font-size: 3rem;
+    }
+    /* -- contact ---*/
+    .title-banner-contact {
+        font-size: 3rem;
+    }
+    .slogan-contact {
+        font-size: 4rem;
+        margin-top: 3rem;
+        padding-bottom: 10rem;
+    }
+    .button-contact a {
+        font-size: 4rem;
+        padding: 4rem;
+    }
+    .contact-container__text h2 {
+        font-size: 5rem;
+    }
+    .contact-container__text p {
+        font-size: 6rem;
+        font-weight: 800;
+    }
+    .contact-container p {
+        font-size: 3.5rem;
+        font-weight: 800;
+    }
+    .contact-container span {
+        font-size: 3rem;
+    }
+    .form {
+        margin: 8rem;
+    }
+    label {
+        font-size: 3rem;
+    }
+    .form input[type="text"],
+    input[type="tel"],
+    input[type="email"] {
+        height: 5rem;
+        font-size: 3rem;
+    }
+    .form input[type="submit"] {
+        margin: 3rem auto;
+        font-size: 3rem;
+    }
+    .form textarea {
+        font-size: 3rem;
+    }
 }
 
 
@@ -577,12 +732,9 @@
     .map {
         display: none;
     }
-    .map-1024 {
-        display: none;
-    }
     /* about page --*/
     .img-banner-about {
-        height: 80vh;
+        height: 100vh;
     }
     .title-banner-about {
         font-size: 5rem;
@@ -592,5 +744,78 @@
         color: white;
         font-size: 3rem;
         padding-bottom: 8rem;
+    }
+    .about-container {
+        display: flex;
+    }
+    .about-container__img {
+        margin: 3rem 3rem 3rem 3rem;
+    }
+    .about-container__img img {
+        padding-bottom: 7rem;
+    }
+    .about-container__text {
+        font-size: 2.5rem;
+    }
+    .mision {
+        display: flex;
+    }
+    .mision__title {
+        margin: 2rem;
+        font-size: 3rem;
+    }
+    /* -- contact ---*/
+    .title-banner-contact {
+        font-size: 3rem;
+    }
+    .slogan-contact {
+        font-size: 4rem;
+        margin-top: 3rem;
+        padding-bottom: 10rem;
+    }
+    .button-contact a {
+        font-size: 4rem;
+        padding: 4rem;
+    }
+    .contact-container__text h2 {
+        font-size: 5rem;
+    }
+    .contact-container__text p {
+        font-size: 6rem;
+        font-weight: 800;
+    }
+    .contact-container p {
+        font-size: 3.5rem;
+        font-weight: 800;
+    }
+    .contact-container span {
+        font-size: 3rem;
+    }
+    .datos {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .dat:nth-child(3) {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .form {
+        margin: 8rem;
+    }
+    label {
+        font-size: 3rem;
+    }
+    .form input[type="text"],
+    input[type="tel"],
+    input[type="email"] {
+        height: 5rem;
+        font-size: 3rem;
+    }
+    .form input[type="submit"] {
+        margin: 3rem auto;
+        font-size: 3rem;
+    }
+    .form textarea {
+        font-size: 3rem;
     }
 }

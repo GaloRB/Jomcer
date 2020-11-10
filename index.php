@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="css/responsive.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://api.whatsapp.com/send?phone=+527292242272&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20servicios." class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+</a>
     <script src="https://kit.fontawesome.com/e954e6d43f.js" crossorigin="anonymous"></script>
     <title>Jomcer</title>
 </head>
@@ -23,7 +27,7 @@
                 <span>Contamos con gran experiencia en obras del sector público y privado</span>
             </div>
             <div class="button-contact">
-                <button><a href="#">Contáctanos</a></button>
+                <button><a href="contacto">Contáctanos</a></button>
             </div>
         </div>
     </header>
@@ -36,7 +40,7 @@
         <div class="text-quienes animacion-derecha">
             <p>JOMCER Constructora S.A De C.V es una empresa contructora socialmente responsable. Promovemos que nuestros empleados sean ejemplo de su comportamiento con los valores que nos cobijan: Calidad, trabajo en equipo, compromiso y responsabilidad.</p>
             <div class="button-about">
-                <button><a href="#">Conócenos</a></button>
+                <button><a href="nosotros">Conócenos</a></button>
             </div>
         </div>
     </section>

@@ -95,8 +95,22 @@ function mostrarScroll2() {
     }
 }
 
+let animacionIzquierda = document.querySelectorAll(".animacion-izquierda");
+
+function mostrarScroll5() {
+    let scrollTop = document.documentElement.scrollTop;
+    for (var i = 0; i < animacionIzquierda.length; i++) {
+        let alturaanimacion = animacionIzquierda[i].offsetTop;
+        if (alturaanimacion - 500 < scrollTop) {
+            animacionIzquierda[i].style.opacity = 1;
+            animacionIzquierda[i].classList.add("mostrar-izquierda");
+        }
+    }
+}
+
 window.addEventListener('scroll', mostrarScroll);
 window.addEventListener('scroll', mostrarScroll1);
 window.addEventListener('scroll', mostrarScroll2);
 window.addEventListener('scroll', mostrarScroll3);
 window.addEventListener('scroll', mostrarScroll4);
+window.addEventListener('scroll', mostrarScroll5);
