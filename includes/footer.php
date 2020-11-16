@@ -1,5 +1,5 @@
 <footer class="footer">
-        <h5>Jomcer Contructora S.A De C.V</h5>
+        <h5>JOMCER CONSTRUCTORA S.A DE C.V</h5>
         <p>Contacto :</p>
         <span><i class="fas fa-phone-alt"></i>Tel: 7292242272</span>
         <span><i class="fas fa-phone-alt"></i>Tel: 7223053867</span>

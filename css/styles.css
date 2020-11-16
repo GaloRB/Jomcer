@@ -150,6 +150,103 @@ body {
 }
 
 
+/* --------------- slide -----------------------*/
+
+.slider-container {
+    padding: 3rem;
+}
+
+.center_y {
+    position: relative;
+    top: 50%;
+    transform: translateX(-50%);
+}
+
+.center_x {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#slider-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    z-index: -9999;
+}
+
+.slide {
+    height: 100%;
+    width: 100%;
+}
+
+.slide img {
+    height: 25rem;
+    width: 100%;
+}
+
+.slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider-arrow {
+    color: #fff;
+    font-size: 3rem;
+    cursor: pointer;
+    position: absolute;
+}
+
+#arrow-prev {
+    left: 20px;
+    top: 7.5rem;
+}
+
+#arrow-next {
+    right: 20px;
+    top: 7.5rem;
+}
+
+#dots-wrapper {
+    display: flex;
+    position: absolute;
+    bottom: 30px;
+}
+
+.dot-nav {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    cursor: pointer;
+    margin: 0 8px;
+    border: 2px solid #d6d6d6;
+}
+
+.dot-nav:hover {
+    background-color: #d6d6d6;
+}
+
+.active-dot {
+    background-color: #d6d6d6;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: .9s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+
 /* ------------------ header -------------------*/
 
 .logo p {
@@ -262,7 +359,8 @@ body {
 }
 
 .title-banner {
-    font-size: 3rem;
+    text-transform: uppercase;
+    font-size: 2.5rem;
     color: white;
 }
 
@@ -726,4 +824,242 @@ input[type="email"] {
 .form textarea {
     outline: none;
     width: 100%;
+}
+
+
+/* -------- contruction page --------------*/
+
+.img-banner-construction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/contruction.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: soft-light;
+    background-color: #353535b9;
+    height: 50vh;
+}
+
+.title-banner-construction {
+    font-size: 2.5rem;
+    margin-bottom: 4rem;
+    color: white;
+}
+
+.construction-container {
+    text-align: center;
+}
+
+.construction-container__text {
+    color: var(--text-color);
+}
+
+.construction-container__text h2 {
+    color: black;
+    font-size: 3rem;
+    margin: 2rem;
+}
+
+.construction-container__text p {
+    padding: 0 3rem;
+    font-size: 2rem;
+}
+
+.construction-container p {
+    font-size: 3rem;
+}
+
+.construction-container__text ul {
+    font-size: 2rem;
+    list-style: circle;
+    margin: 2rem;
+}
+
+
+/* ----------- venta ---------------*/
+
+.img-banner-venta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/maquinaria.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: soft-light;
+    background-color: #353535b9;
+    height: 50vh;
+}
+
+.title-banner-venta {
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+    color: white;
+    text-align: center;
+}
+
+.venta-container {
+    text-align: center;
+}
+
+.venta-container__text {
+    color: var(--text-color);
+}
+
+.venta-container__text h2 {
+    color: black;
+    font-size: 3rem;
+    margin: 2rem;
+}
+
+.venta-container__text p {
+    padding: 0 3rem;
+    font-size: 2rem;
+}
+
+.cards-container {
+    margin: 3rem;
+}
+
+.card {
+    border: 0.5px solid rgba(0, 0, 0, 0.212);
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    box-shadow: 2px 9px 12px 1px black;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    background-color: orange;
+}
+
+.card__img img {
+    width: 100%;
+    max-height: 18rem;
+    object-fit: cover;
+}
+
+.card__title {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.card__text {
+    font-size: 1.5rem;
+    margin: 1rem;
+    padding: auto 1rem;
+    text-align: left;
+}
+
+.card__button {
+    color: white;
+    display: block;
+    margin: 3rem auto;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 80%;
+}
+
+.card__button a {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.card button {
+    border: none;
+    background-color: rgb(236, 118, 71);
+    padding: 1rem;
+    transition: all 0.2s ease;
+}
+
+.renta-container {
+    border-top: 1px solid var(--orange-color);
+    text-align: center;
+}
+
+.renta-container__text {
+    color: var(--text-color);
+}
+
+.renta-container__text h2 {
+    color: black;
+    font-size: 3rem;
+    margin: 2rem;
+}
+
+.renta-container__text p {
+    padding: 0 3rem;
+    font-size: 2rem;
+}
+
+
+/* ------------ water ---------------*/
+
+.img-banner-water {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/pipa.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: soft-light;
+    background-color: #353535b9;
+    height: 50vh;
+}
+
+.title-banner-water {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.slogan-water {
+    color: white;
+    font-size: 2rem;
+    margin-top: 1rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+}
+
+.water-container {
+    text-align: center;
+}
+
+.water-container__text h2 {
+    font-size: 2.5rem;
+    margin: 2rem;
+}
+
+.water-container__text p {
+    font-size: 2.2rem;
+    margin: auto 3rem;
+    padding-bottom: 2rem;
+    color: var(--text-color);
+}
+
+.water-container span {
+    font-size: 2rem;
+    color: var(--text-color);
+}
+
+.list ul {
+    padding: 0;
+    margin-bottom: 2rem;
+}
+
+.list li {
+    font-size: 1.8rem;
+    font-weight: 800;
+    padding: 0.5rem;
+}
+
+.water-container p {
+    font-size: 2.2rem;
+    margin: auto 3rem;
+    color: var(--text-color);
 }

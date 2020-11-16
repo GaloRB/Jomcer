@@ -59,9 +59,9 @@
         background-color: white;
     }
     .nav-mobile li {
-        font-size: 2rem;
+        font-size: 3rem;
         margin: 0;
-        padding: 0.7rem;
+        padding: 2rem;
     }
     .nav-mobile ul {
         text-align: center;
@@ -83,7 +83,7 @@
     }
     /* -------------------- banner ----------------------*/
     .title-banner {
-        font-size: 2rem;
+        font-size: 1.5rem;
         text-align: center;
     }
     .slogan {
@@ -169,9 +169,9 @@
         background-color: white;
     }
     .nav-mobile li {
-        font-size: 2rem;
+        font-size: 3rem;
         margin: 0;
-        padding: 0.5rem;
+        padding: 2rem;
     }
     .nav-mobile ul {
         text-align: center;
@@ -259,9 +259,9 @@
         background-color: white;
     }
     .nav-mobile li {
-        font-size: 2rem;
+        font-size: 3rem;
         margin: 0;
-        padding: 0.5rem;
+        padding: 2rem;
     }
     .nav-mobile ul {
         text-align: center;
@@ -390,6 +390,103 @@
     .footer span {
         font-size: 3rem;
     }
+    /* -- contruction --*/
+    .title-banner-construction {
+        font-size: 4rem;
+        margin-bottom: 4rem;
+    }
+    .construction-container__text h2 {
+        color: black;
+        font-size: 5rem;
+        margin: 3rem;
+    }
+    .construction-container__text p {
+        text-align: justify;
+        padding: 0 5rem;
+        font-size: 3rem;
+    }
+    .construction-container__text ul {
+        margin: 4rem;
+        font-size: 3rem;
+    }
+    .slider-container {
+        padding: 8rem;
+    }
+    .dot-nav {
+        width: 15px;
+        height: 15px;
+    }
+    /* --- venta ----*/
+    .title-banner-venta {
+        font-size: 2rem;
+        margin-bottom: 8rem;
+    }
+    .venta-container__text h2 {
+        font-size: 4rem;
+        margin: 3rem;
+    }
+    .venta-container__text p {
+        padding: 0 3rem;
+        font-size: 3rem;
+    }
+    .cards-container {
+        margin: 5rem;
+    }
+    .card__img img {
+        max-height: 35rem;
+    }
+    .card__title {
+        font-size: 4rem;
+    }
+    .card__text {
+        font-size: 3rem;
+    }
+    .card__button a {
+        font-size: 3rem;
+    }
+    .renta-container__text h2 {
+        font-size: 4rem;
+        margin: 3rem;
+    }
+    .renta-container__text p {
+        padding: 0 3rem;
+        font-size: 3rem;
+    }
+    /* --- water ---*/
+    .title-banner-water {
+        font-size: 4rem;
+        padding-top: 5rem;
+    }
+    .slogan-water {
+        color: white;
+        font-size: 3.5rem;
+        margin-top: 1rem;
+        padding-bottom: 6rem;
+    }
+    .water-container {
+        text-align: center;
+    }
+    .water-container__text h2 {
+        font-size: 4rem;
+    }
+    .water-container span {
+        font-size: 2rem;
+        color: var(--text-color);
+    }
+    .list ul {
+        padding: 0;
+        margin-bottom: 2rem;
+    }
+    .list li {
+        font-size: 2.5rem;
+        font-weight: 800;
+        padding: 0.5rem;
+    }
+    .water-container p {
+        font-size: 3.1rem;
+        margin: auto 3rem;
+        color: var(--text-color);
+    }
 }
 
 
@@ -423,7 +520,7 @@
         padding: 2rem;
     }
     .button-contact a {
-        font-size: 3rem;
+        font-size: 2rem;
     }
     /* -- quienes somos --*/
     .title-quienes {
@@ -603,6 +700,113 @@
     .form textarea {
         font-size: 3rem;
     }
+    /* -- contruction --*/
+    .title-banner-construction {
+        font-size: 5rem;
+        margin-bottom: 4rem;
+    }
+    .construction-container__text h2 {
+        color: black;
+        font-size: 5.5rem;
+        margin: 4rem;
+    }
+    .construction-container__text p {
+        text-align: justify;
+        padding: 0 5rem;
+        font-size: 3.5rem;
+    }
+    .construction-container__text ul {
+        margin: 5rem;
+        font-size: 4rem;
+    }
+    .slider-container {
+        padding: 10rem;
+    }
+    .dot-nav {
+        width: 15px;
+        height: 15px;
+    }
+    .slide img {
+        height: 40rem;
+        width: 100%;
+    }
+    /** --- venta ---**/
+    .cards-container {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 3rem;
+        overflow: hidden;
+    }
+    .card {
+        width: 90%;
+    }
+    .title-banner-venta {
+        font-size: 3rem;
+        margin-bottom: 8rem;
+    }
+    .venta-container__text h2 {
+        font-size: 6rem;
+        margin: 3rem;
+    }
+    .venta-container__text p {
+        padding: 0 3rem;
+        font-size: 4rem;
+    }
+    .card__img img {
+        max-height: 30rem;
+    }
+    .card__title {
+        font-size: 4rem;
+    }
+    .card__text {
+        font-size: 3rem;
+    }
+    .card__button a {
+        font-size: 3rem;
+    }
+    .renta-container__text h2 {
+        font-size: 6rem;
+        margin: 3rem;
+    }
+    .renta-container__text p {
+        padding: 0 3rem;
+        font-size: 4rem;
+    }
+    /* --- water ---*/
+    .title-banner-water {
+        font-size: 4rem;
+        padding-top: 5rem;
+    }
+    .slogan-water {
+        color: white;
+        font-size: 3.5rem;
+        margin-top: 1rem;
+        padding-bottom: 6rem;
+    }
+    .water-container {
+        text-align: center;
+    }
+    .water-container__text h2 {
+        font-size: 4.2rem;
+    }
+    .water-container span {
+        font-size: 2.5rem;
+        color: var(--text-color);
+    }
+    .list ul {
+        padding: 0;
+        margin-bottom: 2rem;
+    }
+    .list li {
+        font-size: 3rem;
+        font-weight: 800;
+        padding: 0.5rem;
+    }
+    .water-container p {
+        font-size: 3.5rem;
+        margin: auto 3rem;
+        color: var(--text-color);
+    }
 }
 
 
@@ -616,6 +820,10 @@
     }
     .logo img {
         height: 8.5rem;
+    }
+    .img-banner {
+        background-attachment: fixed;
+        height: 100vh;
     }
     .button-contact button {
         padding: 2rem;
@@ -671,13 +879,13 @@
         margin-right: 10rem;
     }
     .serv {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     .serv i {
         margin-top: 6rem;
     }
     .serv span {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     .img-container img {
         height: 30rem;
@@ -734,6 +942,7 @@
     }
     /* about page --*/
     .img-banner-about {
+        background-attachment: fixed;
         height: 100vh;
     }
     .title-banner-about {
@@ -817,5 +1026,124 @@
     }
     .form textarea {
         font-size: 3rem;
+    }
+    /* -- contruction --*/
+    .img-banner-construction {
+        background-attachment: fixed;
+        height: 100vh;
+    }
+    .title-banner-construction {
+        font-size: 4rem;
+        margin-bottom: 4rem;
+    }
+    .construction-container__text h2 {
+        color: black;
+        font-size: 5rem;
+        margin: 3rem;
+    }
+    .construction-container__text p {
+        text-align: justify;
+        padding: 0 5rem;
+        font-size: 3rem;
+    }
+    .construction-container__text ul {
+        margin: 6rem;
+        font-size: 3rem;
+    }
+    .slider-container {
+        padding: 10rem;
+    }
+    .dot-nav {
+        width: 15px;
+        height: 15px;
+    }
+    .slide img {
+        height: 50rem;
+        width: 100%;
+    }
+    /** --- venta ---**/
+    .img-banner-venta {
+        background-attachment: fixed;
+        height: 100vh;
+    }
+    .cards-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 4rem;
+        overflow: hidden;
+    }
+    .card {
+        width: 90%;
+    }
+    .title-banner-venta {
+        font-size: 3rem;
+        margin-bottom: 8rem;
+    }
+    .venta-container__text h2 {
+        font-size: 4rem;
+        margin: 3rem;
+    }
+    .venta-container__text p {
+        padding: 0 3rem;
+        font-size: 2.5rem;
+    }
+    .card__img img {
+        max-height: 30rem;
+    }
+    .card__title {
+        font-size: 3rem;
+    }
+    .card__text {
+        font-size: 1.8rem;
+    }
+    .card__button a {
+        font-size: 2rem;
+    }
+    .renta-container__text h2 {
+        font-size: 4rem;
+        margin: 3rem;
+    }
+    .renta-container__text p {
+        padding: 0 3rem;
+        font-size: 2.5rem;
+    }
+    /* ---- water---*/
+    .img-banner-water {
+        background-attachment: fixed;
+        height: 100vh;
+    }
+    .title-banner-water {
+        font-size: 4rem;
+        padding-top: 5rem;
+    }
+    .slogan-water {
+        color: white;
+        font-size: 3.5rem;
+        margin-top: 1rem;
+        padding-bottom: 6rem;
+    }
+    .water-container {
+        text-align: center;
+    }
+    .water-container__text h2 {
+        font-size: 4.2rem;
+    }
+    .water-container span {
+        font-size: 2.5rem;
+        color: var(--text-color);
+    }
+    .list ul {
+        padding: 0;
+        margin-bottom: 2rem;
+    }
+    .list li {
+        font-size: 3rem;
+        font-weight: 800;
+        padding: 0.5rem;
+    }
+    .water-container p {
+        font-size: 3.5rem;
+        margin: auto 3rem;
+        color: var(--text-color);
     }
 }

@@ -27,7 +27,7 @@
                 <span>Más de 10 años de experiencia nos respaldan</span>
             </div>
             <div class="button-contact">
-                <button><a href="contacto">Contáctanos</a></button>
+                <button><a href="contacto">Contactanos</a></button>
             </div>
         </div>
     </header>
@@ -39,7 +39,7 @@
             <h2>CONÓCENOS</h2>
             </div>
             <div class="about-container__text animacion-arriba">
-            <p>En <span>JOMCER CONSTRUCTORA S.A. De C.V</span>, somos un grupo de especialistas en el proceso de la construcción con más de 10 años de experiencia con la visión de fortalecer al crecimiento industrial <span>CONSTRUCTORA JOMCER</span> desarrolla sus labores, respondiendo de manera profesional y trabajando en equipo con nuestros clientes para resolver y crear proyectos que superen sus expectativas, convirtiendo grandes ideas en grandes construcciones.</p>
+            <p>En <span>JOMCER CONSTRUCTORA S.A. DE C.V</span>, somos un grupo de especialistas en el proceso de la construcción con más de 10 años de experiencia con la visión de fortalecer al crecimiento industrial <span>CONSTRUCTORA JOMCER</span> desarrolla sus labores, respondiendo de manera profesional y trabajando en equipo con nuestros clientes para resolver y crear proyectos que superen sus expectativas, convirtiendo grandes ideas en grandes construcciones.</p>
             </div>
         </div>
         

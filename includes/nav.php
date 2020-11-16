@@ -12,12 +12,12 @@
             <ul class="nav-menu">
                 <li><a href="index">Inicio</a></li>
                 <li><a href="nosotros">Nosotros</a></li>
-                <li id="services"><a href="#">Servicios</a>
+                <li id="services"><a href="#">Servicios<i class="fas fa-caret-down"></i></a>
                     <ul class="children">
-                        <li><a href="#">Construcción</a></li>
-                        <li><a href="#">Venta y renta de maquinaria pesada</a></li>
-                        <li><a href="#">Suministro de agua potable</a></li>
-                        <li><a href="#">Suministro de materiales pétreos</a></li>
+                        <li><a href="construccion">Construcción</a></li>
+                        <li><a href="venta">Venta y renta de maquinaria pesada</a></li>
+                        <li><a href="agua">Suministro de agua potable</a></li>
+                        <li><a href="petreo">Suministro de materiales pétreos</a></li>
                     </ul>
                 </li>
                 <li><a href="contacto">Contacto</a></li>
@@ -30,12 +30,12 @@
             <ul id="hidden">
                 <li><a href="index">Inicio</a></li>
                 <li><a href="nosotros">Nosotros</a></li>
-                <li id="services-mobile"><a href="#">Servicios</a>
+                <li id="services-mobile"><a href="#">Servicios<i class="fas fa-caret-down"></i></a>
                     <ul class="children-mobile">
-                        <li><a href="#">Construcción</a></li>
-                        <li><a href="#">Venta y renta de maquinaria pesada</a></li>
-                        <li><a href="#">Suministro de agua potable</a></li>
-                        <li><a href="#">Suministro de materiales pétreos</a></li>
+                        <li><a href="construccion">Construcción</a></li>
+                        <li><a href="venta">Venta y renta de maquinaria pesada</a></li>
+                        <li><a href="agua">Suministro de agua potable</a></li>
+                        <li><a href="petro">Suministro de materiales pétreos</a></li>
                     </ul>
                 </li>
                 <li><a href="contacto">Contacto</a></li>
