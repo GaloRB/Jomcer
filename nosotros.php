@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="JOMCER CONSTRUCTORA S.A. DE C.V, somos un grupo de especialistas en el proceso de la construcción con más de 10 años de experiencia con la visión de fortalecer al crecimiento industrial.">
+    <meta name="keywords" content="Constructora, constructora toluca, años de experienci en contruccion,constructora profesional, constructora comprometida,obra civil,contructora en mexico, constructora, construcciones, proyectos de construccion, maquinaria pesada, venta de maquinaria pesada, renta de maquinaria pesada, suministro de agua potable, pipas de agua, pipas de agua potable, suministro de matereal petreo, matereal petreo">
+    <link rel="shortcut icon" type="image/ico" href="img/favicon-96x96.png">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -39,7 +42,7 @@
             <h2>CONÓCENOS</h2>
             </div>
             <div class="about-container__text animacion-arriba">
-            <p>En <span>JOMCER CONSTRUCTORA S.A. DE C.V</span>, somos un grupo de especialistas en el proceso de la construcción con más de 10 años de experiencia con la visión de fortalecer al crecimiento industrial <span>CONSTRUCTORA JOMCER</span> desarrolla sus labores, respondiendo de manera profesional y trabajando en equipo con nuestros clientes para resolver y crear proyectos que superen sus expectativas, convirtiendo grandes ideas en grandes construcciones.</p>
+            <p>En <span>JOMCER CONSTRUCTORA S.A. DE C.V</span>, somos un grupo de especialistas en el proceso de la construcción con más de 10 años de experiencia con la visión de fortalecer al crecimiento industrial, <span>CONSTRUCTORA JOMCER</span> desarrolla sus labores, respondiendo de manera profesional y trabajando en equipo con nuestros clientes para resolver y crear proyectos que superen sus expectativas, convirtiendo grandes ideas en grandes construcciones.</p>
             </div>
         </div>
         

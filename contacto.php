@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="JOMCER CONSTRUCTORA S.A DE C.V es una empresa que siempre estara al pendiente de tus necesidades, no dudes en contactarnos 7292242272 y 722305386, platicanos tu proyecto o tus necesidades y seguro tendremos una opcion para ti, siempre ofreciednote el mejor servicio, el mejor producto y con la mejor calidad posible">
+    <meta name="keywords" content="contacto de contructora,jomcer contacto,contacto,constructora en toluca">
+    <link rel="shortcut icon" type="image/ico" href="img/favicon-96x96.png">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -65,7 +68,7 @@
 
     <div class="form">
             
-            <form action="" method="">
+            <form action="enviar.php" method="POST">
                 <label for="name">Nombre:*</label>
                 <input type="text" name="name" id="name" required>
                 <label for="tel">Teléfono:*</label>
@@ -73,7 +76,7 @@
                 <label for="email">Correo:</label>
                 <input type="email" name="email" id="email">
                 <label for="mensaje">Mensaje:*</label>
-                <textarea id="mensaje" rows="8" placeholder="Escribe aqui tu mensaje" required=""></textarea>
+                <textarea id="mensaje" name="mensaje" rows="8" placeholder="Escribe aqui tu mensaje" required=""></textarea>
                 <div class="input">
                     <input type="submit" value="Enviar">
                 </div>

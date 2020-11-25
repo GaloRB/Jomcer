@@ -23,7 +23,7 @@
                 <li><a href="contacto">Contacto</a></li>
             </ul>
             <div class="logo">
-               <a href="index"><p>JOMCER</p><img src="img/logo.webp" alt=""></a>
+               <a href="index"><img src="img/ConstructoraJomcer-logo.jpg" alt=" Constructora Jomcer logo"></a>
             </div>
         </nav>
         <nav id="nav-mobile" class="nav-mobile">
@@ -35,7 +35,7 @@
                         <li><a href="construccion">Construcción</a></li>
                         <li><a href="venta">Venta y renta de maquinaria pesada</a></li>
                         <li><a href="agua">Suministro de agua potable</a></li>
-                        <li><a href="petro">Suministro de materiales pétreos</a></li>
+                        <li><a href="petreo">Suministro de materiales pétreos</a></li>
                     </ul>
                 </li>
                 <li><a href="contacto">Contacto</a></li>

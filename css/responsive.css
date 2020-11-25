@@ -487,6 +487,21 @@
         margin: auto 3rem;
         color: var(--text-color);
     }
+    /* -- petreo --*/
+    .title-banner-petreo {
+        font-size: 4rem;
+        margin-bottom: 4rem;
+    }
+    .petreo-container__text h2 {
+        color: black;
+        font-size: 5rem;
+        margin: 3rem;
+    }
+    .petreo-container__text p {
+        text-align: justify;
+        padding: 0 5rem;
+        font-size: 3rem;
+    }
 }
 
 
@@ -751,15 +766,21 @@
     .venta-container__text p {
         padding: 0 3rem;
         font-size: 4rem;
+        margin-bottom: 9rem;
     }
     .card__img img {
         max-height: 30rem;
+        height: 30rem;
     }
     .card__title {
         font-size: 4rem;
+        height: 10rem;
+        display: flex;
+        align-items: center;
     }
     .card__text {
         font-size: 3rem;
+        height: 25rem;
     }
     .card__button a {
         font-size: 3rem;
@@ -771,6 +792,7 @@
     .renta-container__text p {
         padding: 0 3rem;
         font-size: 4rem;
+        margin-bottom: 9rem;
     }
     /* --- water ---*/
     .title-banner-water {
@@ -806,6 +828,30 @@
         font-size: 3.5rem;
         margin: auto 3rem;
         color: var(--text-color);
+    }
+    /* -- petreo --*/
+    .title-banner-petreo {
+        font-size: 5rem;
+        margin-bottom: 4rem;
+    }
+    .petreo-container__text h2 {
+        color: black;
+        font-size: 5.5rem;
+        margin: 4rem;
+    }
+    .petreo-container__text p {
+        text-align: justify;
+        padding: 0 5rem;
+        font-size: 3.5rem;
+    }
+    .img-container-petreo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .petreo-container__img-2 {
+        margin: 2rem;
+        width: 63%;
     }
 }
 
@@ -1089,12 +1135,15 @@
     }
     .card__img img {
         max-height: 30rem;
+        height: 25rem;
     }
     .card__title {
         font-size: 3rem;
+        height: 7rem;
     }
     .card__text {
         font-size: 1.8rem;
+        height: 13rem;
     }
     .card__button a {
         font-size: 2rem;
@@ -1145,5 +1194,51 @@
         font-size: 3.5rem;
         margin: auto 3rem;
         color: var(--text-color);
+    }
+    /* -- petreo --*/
+    .img-banner-petreo {
+        background-attachment: fixed;
+        height: 100vh;
+    }
+    .title-banner-petreo {
+        font-size: 4rem;
+        margin-bottom: 4rem;
+    }
+    .petreo-container__img {
+        margin: 8rem 15rem;
+    }
+    .petreo-container__text h2 {
+        color: black;
+        font-size: 5rem;
+        margin: 3rem;
+    }
+    .petreo-container__text p {
+        text-align: justify;
+        padding: 0 5rem;
+        font-size: 3rem;
+    }
+    .img-container-petreo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .petreo-container__img-2 {
+        margin: 8rem;
+        width: 50%;
+    }
+    .petreo-container__img-2 img {
+        max-height: 30rem;
+        height: 45rem;
+    }
+    .imagen-petreo {
+        background-image: url(../img/suministro-petreo.jpeg);
+        height: 80rem;
+        background-position: center center;
+        background-size: cover;
+        background-blend-mode: soft-light;
+        background-attachment: fixed;
+        background-color: #353535dc;
+        display: flex;
+        align-items: center;
     }
 }

@@ -37,6 +37,44 @@ body {
 }
 
 
+/* ------------ cookies ------------*/
+
+.cookie-container {
+    position: fixed;
+    bottom: -100%;
+    left: 0;
+    right: 0;
+    background: #2f3640;
+    color: #f5f6fa;
+    padding: 0 32px;
+    box-shadow: 0 -2px 16px rgba(47, 54, 64, 0.39);
+    transition: 400ms;
+}
+
+.cookie-container.active {
+    bottom: 0;
+}
+
+.cookie-container a {
+    color: #f5f6fa;
+}
+
+.cookie-container p {
+    font-size: 1.3rem;
+}
+
+.cookie-btn {
+    background: #e84118;
+    border: 0;
+    color: #f5f6fa;
+    padding: 12px 48px;
+    font-size: 18px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
 /* ------------------ boton whatsapp -------------------------*/
 
 .float {
@@ -249,21 +287,12 @@ body {
 
 /* ------------------ header -------------------*/
 
-.logo p {
-    font-family: 'Black Ops One', cursive;
-    font-size: 2.3rem;
-    margin: 3.3rem 0 0rem 0;
-    position: absolute;
-    right: 8rem;
-    letter-spacing: -0.1rem;
-}
-
 .logo img {
     height: 6rem;
 }
 
 .children {
-    background-color: rgba(247, 99, 41, 0.384);
+    background-color: rgb(247, 99, 41);
     margin-top: 1rem;
     opacity: 0;
     visibility: hidden;
@@ -326,16 +355,6 @@ body {
 .nav-menu li {
     margin: 2rem;
     font-size: 2.5rem;
-}
-
-.logo {
-    padding-right: 5%;
-    color: white;
-    font-size: 3rem;
-}
-
-.logo h1 {
-    margin: 0;
 }
 
 .logo a {
@@ -624,6 +643,11 @@ body {
     font-size: 1.5rem;
     margin: 1rem 5rem;
     text-align: center;
+}
+
+.footer a {
+    color: white;
+    font-size: 1.5rem;
 }
 
 
@@ -939,6 +963,15 @@ input[type="email"] {
     width: 100%;
     max-height: 18rem;
     object-fit: cover;
+    transition: all 0.5s ease;
+}
+
+.card__img img:hover {
+    transform: scale(1.1);
+}
+
+.card__img {
+    overflow: hidden;
 }
 
 .card__title {
@@ -1062,4 +1095,87 @@ input[type="email"] {
     font-size: 2.2rem;
     margin: auto 3rem;
     color: var(--text-color);
+}
+
+
+/* -------- petreo page --------------*/
+
+.img-banner-petreo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/petreo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: soft-light;
+    background-color: #353535b9;
+    height: 50vh;
+}
+
+.title-banner-petreo {
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+    color: white;
+    text-align: center;
+}
+
+.petreo-container {
+    text-align: center;
+}
+
+.petreo-container__text {
+    color: var(--text-color);
+}
+
+.petreo-container__text h2 {
+    color: black;
+    font-size: 3rem;
+    margin: 2rem;
+}
+
+.petreo-container__img {
+    margin: 2rem 4rem;
+}
+
+.petreo-container__image {
+    margin: 2rem 7rem;
+}
+
+.petreo-container__image img {
+    width: 100%;
+    max-height: 18rem;
+    object-fit: cover;
+}
+
+.img-container-petreo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.petreo-container__img-2 {
+    margin: 1rem;
+    width: 63%;
+}
+
+.petreo-container__text p {
+    padding: 0 3rem;
+    font-size: 2rem;
+}
+
+.petreo-container p {
+    font-size: 3rem;
+}
+
+.imagen-petreo {
+    background-image: url(../img/suministro-petreo.jpeg);
+    height: 40rem;
+    background-position: center center;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-attachment: fixed;
+    background-color: #353535dc;
+    display: flex;
+    align-items: center;
 }

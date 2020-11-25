@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="JOMCER CONSTRUCTORA S.A DE C.V es una empresa de contruccion y obra civil socialmente responsable y que tambien ofrece venta y renta de maquinaria pesada asi como suministro de agua potable y suministro de material petreo. Promovemos que nuestros empleados sean ejemplo de su comportamiento con los valores que nos cobijan.">
+    <meta name="keywords" content="Constructora,constructora toluca,constructora profesional,constructora comprometida,obra civil,contructora en mexico,constructora,construcciones,proyectos de construccion,maquinaria pesada,venta de maquinaria pesada,renta de maquinaria pesada,suministro de agua potable,pipas de agua,pipas de agua potable,suministro de matereal petreo,matereal petreo">
+    <link rel="shortcut icon" type="image/ico" href="img/favicon-96x96.png">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -12,9 +15,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <a href="https://api.whatsapp.com/send?phone=+527292242272&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20servicios." class="float" target="_blank">
     <i class="fa fa-whatsapp my-float"></i>
-</a>
+    </a>
     <script src="https://kit.fontawesome.com/e954e6d43f.js" crossorigin="anonymous"></script>
-    <title>Jomcer</title>
+    <title>Construcción, Obra Civíl y Maquinaria Pesada - Jomcer</title>
 </head>
 
 <?php include 'includes/nav.php' ?>
@@ -38,7 +41,7 @@
             <h2>¿Quiénes Somos?</h2>
         </div>
         <div class="text-quienes animacion-derecha">
-            <p>JOMCER CONSTRUCTORA S.A DE C.V es una empresa contructora socialmente responsable. Promovemos que nuestros empleados sean ejemplo de su comportamiento con los valores que nos cobijan: Calidad, trabajo en equipo, compromiso y responsabilidad.</p>
+            <p>JOMCER CONSTRUCTORA S.A DE C.V es una empresa constructora socialmente responsable. Promovemos que nuestros empleados sean ejemplo de su comportamiento con los valores que nos cobijan: Calidad, trabajo en equipo, compromiso y responsabilidad.</p>
             <div class="button-about">
                 <button><a href="nosotros">Conócenos</a></button>
             </div>
@@ -52,12 +55,12 @@
                 <h2>Nuestros Servicios</h2>
             </div>
             <div class="text-servicios animacion-derecha">
-                <p>Contamos con únidades propias para llevar a cabo los acarreos de suelos, contrucciónes, moviminetos de tierra y agua, ademas venta y renta de maquinaria pesada, logrando ofrecer a nuestros clientes un buen servicio a un precio bajo.</p>
+                <p>Contamos con únidades propias para construcción y llevar a cabo los acarreos de suelos, contrucciónes, moviminetos de tierra y agua, ademas venta y renta de maquinaria pesada, logrando ofrecer a nuestros clientes un buen servicio a un precio bajo.</p>
             </div>
             <div class="nuestros-servicios">
                 <div class="serv">
                     <div class="img-container">
-                        <img src="img/contruccion.jpg" alt="">
+                        <img src="img/contruccion.jpg" alt="construccion en curso">
                     </div>
                     <i class="fas fa-hard-hat"></i>
                     <h2>Construcción</h2>
@@ -70,7 +73,7 @@
                 </div>
                 <div class="serv">
                     <div class="img-container">
-                        <img src="img/maquina.jpeg" alt="">
+                        <img src="img/maquina.jpeg" alt="maquina cargadora para construccion">
                     </div>
                     <i class="fas fa-tractor"></i>
                     <h2>Venta y renta de maquinaria pesada</h2>
@@ -83,7 +86,7 @@
                 </div>
                 <div class="serv">
                     <div class="img-container">
-                        <img src="img/pipa.jpeg" alt="">
+                        <img src="img/pipa.jpeg" alt="pipa de agua de 10,000 litros">
                     </div>
                     <i class="fas fa-hand-holding-water"></i>
                     <h2>Suministro de agua potable</h2>
@@ -96,7 +99,7 @@
                 </div>
                 <div class="serv">
                     <div class="img-container">
-                        <img src="img/material.jpg" alt="">
+                        <img src="img/material.jpg" alt="material petreo para la construcción">
                     </div>
                     <i class="fas fa-tools"></i>
                     <h2>Suministro de material pétreo</h2>
@@ -130,6 +133,8 @@
         <i class="fas fa-handshake"></i>
         <h4>Más de 10 años de expriencia nos respaldan, siempre dando el mejor servicio y obteniendo la satisfacción de todos nuestros clientes</h4>
     </section>
+
+    
 
  <?php include 'includes/footer.php' ?>
 

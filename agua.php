@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="JOMCER CONSTRUCTORA S.A DE C.V es una empresa que ofrece el servicio de suministro de agua potable por medio de pipas de diferentes capacidades, ya sea que necesites pipa de 10,000 litros, pipa de 20,000 litros o pipa de 35,000 litros de agua, siempre ofreciendo la mejor calidad y con tanques antioxidantes.">
+    <meta name="keywords" content="pipa de agua,pipa de agua potable,aguapotable,suministro de agua,suministro de agua potable,pipa de 10,000 litros de agua, pipa de 20,000 litros de agua, pipa de 32,000 litros de agua, transporte de agua,transporte de agua potable">
+    <link rel="shortcut icon" type="image/ico" href="img/favicon-96x96.png">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -14,7 +17,7 @@
     <i class="fa fa-whatsapp my-float"></i>
     </a>
     <script src="https://kit.fontawesome.com/e954e6d43f.js" crossorigin="anonymous"></script>
-    <title>Jomcer - Suministro de agua</title>
+    <title>Jomcer - Suministro De Agua Potable</title>
 </head>
 
 <?php include 'includes/nav.php' ?>
@@ -32,10 +35,10 @@
         </div>
     </header>
 
-    <section class="water-container">
+    <section class="water-container animacion-arriba">
         <div class="water-container__text">
             <h2>Llama a JOMCER CONTRUCTORA y solicita tu servicio con la puntualidad y calidad que nos distingue.</h2>
-            <p>Cargamos nuestros camiones desde la madrugada para atender cualquier solicitud lo más temprano que nos lo pidan, trasladándonos a donde nos indiquen con la mayor eficiencia y puntualidad en todo el Valle de Toluca.</p>
+            <p>Cargamos nuestros camiones para atender cualquier solicitud lo más temprano que nos lo pidan, trasladándonos a donde nos indiquen con la mayor eficiencia y puntualidad.</p>
             <p>No dudes en comunicarte para solicitar la mejor opción en:</p>
         </div>
 
@@ -46,6 +49,7 @@
                     <li>Abastecimineto para contrucciones y empresas</li>
                     <li>Llenado de albercas</li>
                     <li>Servicio a purificadoras</li>
+                    <li>Tanque antioxidante</li>
                 </ul>  
         </div>
 
@@ -53,10 +57,10 @@
 
     <section class="cards-container">
 
-        <div class="card">
+        <div class="card animacion-abajo">
             <div class="card__img">
                     
-                        <img src="img/pipa.jpeg" alt="Imagen"></a>
+                        <img src="img/kodiak10mil (6).jpeg" alt="Pipa 10,000 Litros agua potable"></a>
                     
             </div>
             <div class="card__title">
@@ -68,10 +72,10 @@
             <button class="card__button"><a href="https://api.whatsapp.com/send?phone=+527292242272&text=Hola%21%20Quisiera%20pedir%20la%20pipa%20de%2010,000%20litros." target="_blank">La quiero</a></button>
         </div>
 
-        <div class="card">
+        <div class="card animacion-arriba">
             <div class="card__img">
                     
-                        <img src="img/pipa.jpeg" alt="Imagen"></a>
+                        <img src="img/pipa.jpeg" alt="Pipa 20,000 Litros agua potable"></a>
                     
             </div>
             <div class="card__title">
@@ -83,19 +87,19 @@
             <button class="card__button"><a href="https://api.whatsapp.com/send?phone=+527292242272&text=Hola%21%20Quisiera%20pedir%20la%20pipa%20de%2020,000%20litros." target="_blank">La quiero</a></button>
         </div>
 
-        <div class="card">
+        <div class="card animacion-abajo">
             <div class="card__img">
                     
-                        <img src="img/pipa.jpeg" alt="Imagen"></a>
+                        <img src="img/pipa35mil.jpeg" alt="Pipa 35,000 Litros agua potable"></a>
                     
             </div>
             <div class="card__title">
-                <h3>Pipa 32,000 Litros</h3>
+                <h3>Pipa 35,000 Litros</h3>
             </div>
             <div class="card__text">
                 
             </div>
-            <button class="card__button"><a href="https://api.whatsapp.com/send?phone=+527292242272&text=Hola%21%20Quisiera%20pedir%20la%20pipa%20de%2032,000%20litros." target="_blank">La quiero</a></button>
+            <button class="card__button"><a href="https://api.whatsapp.com/send?phone=+527292242272&text=Hola%21%20Quisiera%20pedir%20la%20pipa%20de%2035,000%20litros." target="_blank">La quiero</a></button>
         </div>
 
 </section>
